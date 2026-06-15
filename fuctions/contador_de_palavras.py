@@ -12,7 +12,7 @@ def contador_de_palavras(frase):
       if palavra not in contador:
          contador[palavra] = 1
       else:
-         contador[palavra] += 1 
+         contador[palavra] += 1
 
    return contador
 

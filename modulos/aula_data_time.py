@@ -25,3 +25,13 @@ agora = datetime.now()
 
 print(agora.strftime('%d/%m/%Y'))
 
+# convertendo tenxto para datas 
+
+from datetime import datetime
+
+data = datetime.strptime("10/06/2026", "%d/%m/%Y")
+
+print(data)
+
+
+

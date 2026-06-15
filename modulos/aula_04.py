@@ -1,5 +1,6 @@
 import time
 
+# medir tempo de execução 
 inicio = time.time()
 
 for i in range(1000000):
@@ -8,3 +9,5 @@ for i in range(1000000):
 fim = time.time()
 
 print(f'tempo gasto: {fim -inicio:.4f} segundos ')
+
+

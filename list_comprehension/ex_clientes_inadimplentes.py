@@ -16,7 +16,7 @@ for cpf, valor, dia in clientes_devedores:
 print(clientes_inadiplentes)
 
 
-# LIST COMPREHENSIBLE 
+# LIST COMPREHENSION
 
 clientes_inadiplentes_2 = [cpf for cpf, valor, dia in clientes_devedores if dia > 20]
 print(clientes_inadiplentes_2)

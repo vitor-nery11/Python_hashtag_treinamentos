@@ -10,7 +10,7 @@ for item in vendedores_dic:
         bonus.append(0)
 
 
-# LIST COMPREHENSIBLE 
+# LIST COMPREHENSION 
 bonus_2 = [vendedores_dic[item] * 0.1  if vendedores_dic[item] > meta else 0 for item in vendedores_dic]
 
 print(bonus) 

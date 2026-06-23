@@ -10,6 +10,6 @@ for i, produto in enumerate(produtos):
 
 print(produtos_acima_meta)
 
-# LIST_COMPREHENSIBLE
+# LIST_COMPREHENSION
 
 produtos_acima_meta = [produto for i, produto in enumerate(produtos) if vendas_produtos[i] > meta]

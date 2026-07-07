@@ -12,6 +12,6 @@ print(maior_idade)
 
 # LIST COMPREHENSION
 
-maior_idade_2 = [idade * 2 if idade >= 18 else ''  for idade in idades]
+maior_idade_2 = [idade * 2 if idade >= 18 else 0  for idade in idades]
 
 print(maior_idade_2)

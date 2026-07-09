@@ -11,3 +11,5 @@ print(m[2,1])
 print(m[1])
 print(m[:,0])
 print(m[:,2])
+
+
